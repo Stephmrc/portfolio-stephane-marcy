@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stéphane Marcy — Développeur Web Freelance</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">S<span class="logo-dot">.</span>M</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-nav">Me contacter</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="noise-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-badge animate-on-scroll">
+                <span class="badge-dot"></span>
+                Disponible pour de nouvelles missions
+            </div>
+            <h1 class="hero-title animate-on-scroll">
+                Stéphane Marcy
+            </h1>
+            <p class="hero-role animate-on-scroll">Développeur Web Freelance</p>
+            <p class="hero-subtitle animate-on-scroll">
+                Je conçois et développe des sites web modernes, performants et sur-mesure
+                pour donner vie à vos projets digitaux.
+            </p>
+            <div class="hero-cta animate-on-scroll">
+                <a href="#projets" class="btn btn-primary">
+                    Voir mes projets
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V7.8H7.8"/></svg>
+                </a>
+                <a href="https://github.com/Stephmrc" target="_blank" rel="noopener" class="btn btn-ghost">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    GitHub
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <!-- À propos -->
+    <section class="apropos" id="apropos">
+        <div class="container">
+            <div class="apropos-content">
+                <div class="apropos-text animate-on-scroll">
+                    <span class="section-tag">À propos</span>
+                    <h2 class="section-title">Passionné par le web,<br>focalisé sur les <span class="gradient-text">résultats</span></h2>
+                    <p>Développeur web freelance basé en France, je crée des sites vitrines, landing pages et applications web pour les entreprises et les indépendants. Mon approche : un design soigné, un code propre et des performances optimales.</p>
+                    <div class="apropos-highlights">
+                        <div class="highlight">
+                            <span class="highlight-number">5+</span>
+                            <span class="highlight-label">Projets livrés</span>
+                        </div>
+                        <div class="highlight">
+                            <span class="highlight-number">100%</span>
+                            <span class="highlight-label">Clients satisfaits</span>
+                        </div>
+                        <div class="highlight">
+                            <span class="highlight-number">2025</span>
+                            <span class="highlight-label">Formé & certifié</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets -->
+    <section class="projets" id="projets">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Mes <span class="gradient-text">réalisations</span></h2>
+                <p class="section-subtitle">Une sélection de projets sur lesquels j'ai travaillé.</p>
+            </div>
+
+            <!-- Projet 1 - NovaPulse -->
+            <div class="projet-showcase animate-on-scroll">
+                <div class="projet-visual">
+                    <div class="browser-frame">
+                        <div class="browser-bar">
+                            <div class="browser-dots"><span></span><span></span><span></span></div>
+                            <div class="browser-url">stephmrc.github.io/landing-novapulse</div>
+                        </div>
+                        <div class="browser-content" style="background: linear-gradient(135deg, #0a0a1a 0%, #1a1030 100%);">
+                            <div class="mock-nav">
+                                <div class="mock-logo"></div>
+                                <div class="mock-links"><span></span><span></span><span></span></div>
+                                <div class="mock-btn-sm"></div>
+                            </div>
+                            <div class="mock-hero-center">
+                                <div class="mock-badge-sm"></div>
+                                <div class="mock-title-lg"></div>
+                                <div class="mock-title-lg gradient-mock"></div>
+                                <div class="mock-subtitle-sm"></div>
+                                <div class="mock-cta-row"><div class="mock-btn-primary"></div><div class="mock-btn-outline"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projet-details">
+                    <div class="projet-tags">
+                        <span>Landing Page</span>
+                        <span>Design</span>
+                        <span>Animation</span>
+                    </div>
+                    <h3>NovaPulse — Agence Digitale</h3>
+                    <p>Landing page moderne pour une agence digitale fictive. Design dark avec gradients, animations au scroll (Intersection Observer), compteurs animés, effets parallax et formulaire de contact interactif.</p>
+                    <ul class="projet-tech">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <div class="projet-links">
+                        <a href="https://stephmrc.github.io/landing-novapulse/" target="_blank" rel="noopener" class="btn btn-sm btn-primary">
+                            Voir le site
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V7.8H7.8"/></svg>
+                        </a>
+                        <a href="https://github.com/Stephmrc/landing-novapulse" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            Code source
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 2 - Chez Pierrette -->
+            <div class="projet-showcase reverse animate-on-scroll">
+                <div class="projet-visual">
+                    <div class="browser-frame">
+                        <div class="browser-bar">
+                            <div class="browser-dots"><span></span><span></span><span></span></div>
+                            <div class="browser-url">chez-pierrette</div>
+                        </div>
+                        <div class="browser-content" style="background: linear-gradient(135deg, #1a0f0a 0%, #2d1810 100%);">
+                            <div class="mock-nav">
+                                <div class="mock-logo"></div>
+                                <div class="mock-links"><span></span><span></span><span></span></div>
+                            </div>
+                            <div class="mock-hero-center">
+                                <div class="mock-title-lg" style="background: rgba(210, 170, 120, 0.3);"></div>
+                                <div class="mock-subtitle-sm" style="background: rgba(210, 170, 120, 0.15);"></div>
+                                <div class="mock-cta-row"><div class="mock-btn-primary" style="background: rgba(210, 170, 120, 0.4);"></div></div>
+                            </div>
+                            <div class="mock-cards-row">
+                                <div class="mock-card" style="background: rgba(210, 170, 120, 0.08);"></div>
+                                <div class="mock-card" style="background: rgba(210, 170, 120, 0.08);"></div>
+                                <div class="mock-card" style="background: rgba(210, 170, 120, 0.08);"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projet-details">
+                    <div class="projet-tags">
+                        <span>Site Vitrine</span>
+                        <span>Restaurant</span>
+                    </div>
+                    <h3>Chez Pierrette — Bistro Contemporain</h3>
+                    <p>Site vitrine pour un bistro contemporain à Meilhan-sur-Garonne. Design chaleureux avec présentation du menu, galerie et informations pratiques.</p>
+                    <ul class="projet-tech">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <div class="projet-links">
+                        <a href="https://github.com/Stephmrc/chez-pierrette" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            Code source
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 3 - Alba Conciergerie -->
+            <div class="projet-showcase animate-on-scroll">
+                <div class="projet-visual">
+                    <div class="browser-frame">
+                        <div class="browser-bar">
+                            <div class="browser-dots"><span></span><span></span><span></span></div>
+                            <div class="browser-url">alba-conciergerie</div>
+                        </div>
+                        <div class="browser-content" style="background: linear-gradient(135deg, #0f1923 0%, #1a2a3a 100%);">
+                            <div class="mock-nav">
+                                <div class="mock-logo"></div>
+                                <div class="mock-links"><span></span><span></span><span></span></div>
+                            </div>
+                            <div class="mock-hero-center">
+                                <div class="mock-title-lg" style="background: rgba(180, 160, 130, 0.3);"></div>
+                                <div class="mock-subtitle-sm" style="background: rgba(180, 160, 130, 0.15);"></div>
+                            </div>
+                            <div class="mock-cards-row">
+                                <div class="mock-card-tall" style="background: rgba(180, 160, 130, 0.1);"></div>
+                                <div class="mock-card-tall" style="background: rgba(180, 160, 130, 0.1);"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projet-details">
+                    <div class="projet-tags">
+                        <span>Site Vitrine</span>
+                        <span>Conciergerie</span>
+                        <span>Luxe</span>
+                    </div>
+                    <h3>Alba — Conciergerie de Prestige</h3>
+                    <p>Site vitrine pour une conciergerie et service de locations de prestige. Design élégant mettant en valeur les propriétés et services haut de gamme.</p>
+                    <ul class="projet-tech">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <div class="projet-links">
+                        <a href="https://github.com/Stephmrc/alba-conciergerie" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            Code source
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 4 - Restaurant Demo -->
+            <div class="projet-showcase reverse animate-on-scroll">
+                <div class="projet-visual">
+                    <div class="browser-frame">
+                        <div class="browser-bar">
+                            <div class="browser-dots"><span></span><span></span><span></span></div>
+                            <div class="browser-url">restaurant-demo</div>
+                        </div>
+                        <div class="browser-content" style="background: linear-gradient(135deg, #1a1a1a 0%, #2a2020 100%);">
+                            <div class="mock-nav">
+                                <div class="mock-logo"></div>
+                                <div class="mock-links"><span></span><span></span><span></span><span></span></div>
+                            </div>
+                            <div class="mock-hero-center">
+                                <div class="mock-title-lg" style="background: rgba(200, 80, 60, 0.3);"></div>
+                                <div class="mock-subtitle-sm" style="background: rgba(200, 80, 60, 0.15);"></div>
+                                <div class="mock-cta-row"><div class="mock-btn-primary" style="background: rgba(200, 80, 60, 0.4);"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projet-details">
+                    <div class="projet-tags">
+                        <span>Site Vitrine</span>
+                        <span>Restaurant</span>
+                    </div>
+                    <h3>Restaurant Demo — Site Vitrine</h3>
+                    <p>Site vitrine complet pour un restaurant avec menu, galerie photos, formulaire de réservation et design responsive adapté à tous les écrans.</p>
+                    <ul class="projet-tech">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <div class="projet-links">
+                        <a href="https://github.com/Stephmrc/restaurant-demo-portfolio" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            Code source
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 5 - OhMyFood -->
+            <div class="projet-showcase animate-on-scroll">
+                <div class="projet-visual">
+                    <div class="browser-frame">
+                        <div class="browser-bar">
+                            <div class="browser-dots"><span></span><span></span><span></span></div>
+                            <div class="browser-url">ohmyfood</div>
+                        </div>
+                        <div class="browser-content" style="background: linear-gradient(135deg, #f5f5f5 0%, #eee 100%);">
+                            <div class="mock-nav" style="background: rgba(0,0,0,0.05);">
+                                <div class="mock-logo" style="background: rgba(0,0,0,0.15);"></div>
+                            </div>
+                            <div class="mock-hero-center">
+                                <div class="mock-title-lg" style="background: rgba(0,0,0,0.1);"></div>
+                                <div class="mock-subtitle-sm" style="background: rgba(0,0,0,0.06);"></div>
+                            </div>
+                            <div class="mock-cards-row">
+                                <div class="mock-card" style="background: rgba(150, 80, 200, 0.12);"></div>
+                                <div class="mock-card" style="background: rgba(150, 80, 200, 0.12);"></div>
+                                <div class="mock-card" style="background: rgba(150, 80, 200, 0.12);"></div>
+                                <div class="mock-card" style="background: rgba(150, 80, 200, 0.12);"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projet-details">
+                    <div class="projet-tags">
+                        <span>Application Web</span>
+                        <span>SCSS</span>
+                        <span>Formation</span>
+                    </div>
+                    <h3>OhMyFood — Réservation Restaurant</h3>
+                    <p>Application web de réservation de restaurants gastronomiques parisiens. Navigation multi-pages avec fiches restaurants détaillées et menus interactifs. Projet réalisé dans le cadre de ma formation OpenClassrooms.</p>
+                    <ul class="projet-tech">
+                        <li>HTML5</li>
+                        <li>SCSS</li>
+                        <li>CSS Animations</li>
+                    </ul>
+                    <div class="projet-links">
+                        <a href="https://github.com/Stephmrc/ohmyfood.stephmrc" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            Code source
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences -->
+    <section class="competences" id="competences">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">Compétences</span>
+                <h2 class="section-title">Mon <span class="gradient-text">stack technique</span></h2>
+            </div>
+            <div class="competences-grid">
+                <div class="comp-card animate-on-scroll">
+                    <div class="comp-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                    </div>
+                    <h4>Frontend</h4>
+                    <div class="comp-items">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>SCSS</span>
+                        <span>Responsive Design</span>
+                    </div>
+                </div>
+                <div class="comp-card animate-on-scroll">
+                    <div class="comp-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+                    </div>
+                    <h4>Design</h4>
+                    <div class="comp-items">
+                        <span>UI/UX</span>
+                        <span>Figma</span>
+                        <span>Web Design</span>
+                        <span>Animations CSS</span>
+                    </div>
+                </div>
+                <div class="comp-card animate-on-scroll">
+                    <div class="comp-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/></svg>
+                    </div>
+                    <h4>Outils</h4>
+                    <div class="comp-items">
+                        <span>Git & GitHub</span>
+                        <span>VS Code</span>
+                        <span>Chrome DevTools</span>
+                        <span>SEO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-box animate-on-scroll">
+                <span class="section-tag">Contact</span>
+                <h2 class="section-title">Un projet en tête ?<br><span class="gradient-text">Discutons-en.</span></h2>
+                <p>Envoyez-moi un message et je reviens vers vous sous 24h.</p>
+                <div class="contact-actions">
+                    <a href="mailto:stephane.marcy@gmail.com" class="btn btn-primary btn-lg">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        stephane.marcy@gmail.com
+                    </a>
+                    <a href="https://github.com/Stephmrc" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2025 Stéphane Marcy. Tous droits réservés.</p>
+            <p class="footer-credit">Développé avec passion</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
